@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JestDV</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' https:; form-action https://formspree.io;">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="9d2c7abb-93c9-4859-a928-3f16423b4dbe.png" type="image/png">
+</head>
+
+<body>
+<div class="nav">
+  <div class="logo">JestDV</div>
+  <div class="menu">
+    <a href="#home">Inicio</a>
+    <a href="#services">Servicios</a>
+    <a href="#pricing">Precios</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#contact">Contacto</a>
+  </div>
+</div>
+
+<div class="hero" id="home">
+  <div class="hero-text">
+    <h1>Portafolio</h1>
+    <button class="btn" onclick="scrollToContact()">Contactarme</button>
+  </div>
+</div>
+
+<div class="center-section">
+  <div class="center-card">
+    <h3>Diseño</h3>
+    <p>Interfaces modernas y audaces</p>
+  </div>
+  <div class="center-card">
+    <h3>Experiencia</h3>
+    <p>UX fluida y atractiva</p>
+  </div>
+  <div class="center-card">
+    <h3>Innovación</h3>
+    <p>Ideas futuristas únicas</p>
+  </div>
+</div>
+
+<div class="section" id="projects">
+  <div class="title">Proyectos</div>
+  <div class="gallery">
+    <div class="item img1"><span>Sitio Web de Demostración de Restaurante</span></div>
+    <div class="item img2"><span>Demo de E-commerce (Proyecto del Cliente - Próximamente)</span></div>
+    <div class="item img3"><span>Demostración de Sitio Web Empresarial</span></div>
+  </div>
+</div>
+
+<div class="section" id="services">
+  <div class="title">Servicios</div>
+  <div class="center-section">
+    <div class="center-card">
+      <h3>Diseño Web</h3>
+      <p>Sitios web personalizados con visuales modernos y páginas de carga rápida.</p>
+    </div>
+    <div class="center-card">
+      <h3>Diseño UI/UX</h3>
+      <p>Interfaces diseñadas para claridad, conversión e interacción fluida.</p>
+    </div>
+    <div class="center-card">
+      <h3>Marca</h3>
+      <p>Paletas de colores de marca, tipografía y sistemas visuales para identidad digital.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="pricing">
+  <div class="title">Precios de Sitio Web</div>
+  <div class="pricing-grid">
+    <div class="price-card">
+      <span class="price-plan">Básico</span>
+      <strong class="price-value">$30</strong>
+      <p>Página de destino simple con diseño responsivo y pulido visual básico.</p>
+      <ul class="price-features">
+        <li>1 página estática</li>
+        <li>Diseño compatible con dispositivos móviles</li>
+        <li>Botón de contacto</li>
+        <li>Configuración SEO básica</li>
+        <li>Enlaces de redes sociales</li>
+        <li>1 revisión</li>
+      </ul>
+    </div>
+    <div class="price-card featured">
+      <span class="price-plan">Estándar</span>
+      <strong class="price-value">$50</strong>
+      <p>Sitio web para pequeñas empresas con 3 secciones, diseño personalizado y mejoras UX.</p>
+      <ul class="price-features">
+        <li>Hasta 3 páginas</li>
+        <li>Diseño responsivo</li>
+        <li>Integración de formulario de contacto</li>
+        <li>Configuración básica del blog</li>
+        <li>Google Analytics</li>
+        <li>2 revisiones</li>
+      </ul>
+    </div>
+    <div class="price-card">
+      <span class="price-plan">Premium</span>
+      <strong class="price-value">$100</strong>
+      <p>Microsite completo con 5 páginas, visuales suave y entrega lista para la marca.</p>
+      <ul class="price-features">
+        <li>Hasta 5 páginas</li>
+        <li>Animaciones modernas</li>
+        <li>Estructura amigable con SEO</li>
+        <li>Sistema de pedidos por WhatsApp (sin pasarela de pago)</li>
+        <li>Apoyo de 1 mes</li>
+        <li>3 revisiones</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="contact">
+  <div class="title">Contacto</div>
+  <p class="contact-note">Completa el formulario a continuación y me pondré en contacto pronto.</p>
+  <form class="contact-form" action="https://formspree.io/f/xdapyrrw" method="POST">
+    <input type="text" name="name" placeholder="Nombre" required>
+    <input type="email" name="email" placeholder="Correo Electrónico" required>
+    <textarea name="message" placeholder="Mensaje" required></textarea>
+    <button type="submit" class="btn">Enviar Mensaje</button>
+  </form>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
